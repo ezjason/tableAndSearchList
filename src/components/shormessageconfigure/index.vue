@@ -50,7 +50,6 @@
         </el-tooltip>
       </template>
     </unicom-tbale>
-     <el-button >656456</el-button>
     <el-dialog :title="addType"
                :width="'398px'"
                :visible.sync="allotVisible">
