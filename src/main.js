@@ -5,6 +5,10 @@ import App from './App'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import router from './router'
+import Vant from 'vant';
+import 'vant/lib/index.css';
+
+Vue.use(Vant);
 import {
   format,
   setoption
