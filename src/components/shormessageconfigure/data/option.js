@@ -89,6 +89,7 @@ export default {
       label: '类型',
       prop: 'borrowTypeName',
       sortable: false,
+      solt:true,
       valueDefault: '',
       span: 24,
       type:'string'

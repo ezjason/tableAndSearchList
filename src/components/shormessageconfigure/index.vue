@@ -20,6 +20,9 @@
       @row-del="handleDel"
       @valchange="handlechangeVal"
     >
+      <template slot="borrowTypeName" slot-scope="scope">
+        <span>{{scope.row.smsTemplate}}</span>
+      </template>
       <template slot="menuLeft">
         <el-button type="success" @click="add(1)">按钮</el-button>
       </template>
@@ -163,7 +166,7 @@ export default {
           smsTemplate: "table",
           overdueDayMin: "2019-03-11 00:00:00",
           overdueDayMax: "2019-03-11 23:59:59",
-          borrowTypeName: "类型",
+          borrowTypeName: "类型111",
           enabled: 1,
           updateTime: new Date(),
           operatorUserName: "jason-hhc",
